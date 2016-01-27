@@ -1,10 +1,10 @@
 # Apha Blog exercise for Udemy course
 
-This is the second project (Finance Tracker) from Udemy's [The Complete Ruby on Rails Developer Course](https://www.udemy.com/the-complete-ruby-on-rails-developer-course). The solution presented here was made by [Renan Castro](http://renancastro.com).
+This is the second project (Finance Tracker) from Udemy's [The Complete Ruby on Rails Developer Course](https://www.udemy.com/the-complete-ruby-on-rails-developer-course). Implemented by [Renan Castro](http://renancastro.com).
 
 ## Demo
 
-You can view the demo here: [http://renan-alpha-blog.herokuapp.com](http://renan-alpha-blog.herokuapp.com)
+You can view the demo here: [http://renan-finance-tracker.herokuapp.com](http://renan-finance-tracker.herokuapp.com) and log in with the email `testing@google.com` and password `password`. Feel free to create a new account if you prefer.
 
 ## Ruby and Rails versions
 
