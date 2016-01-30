@@ -21,7 +21,5 @@ init_stock_lookup = function() {
   });
 };
 
-
-$(document).ready(function() {
-  init_stock_lookup();
-});
+$(document).ready(init_stock_lookup);
+$(document).on('page:load', init_stock_lookup);
