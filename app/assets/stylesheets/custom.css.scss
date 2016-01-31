@@ -1,3 +1,30 @@
 .results-block {
   display: inline-block;
 }
+
+.margin-t30 {
+  margin-top: 30px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:visited {
+  color: #fff;
+}
+
+a,
+.link {
+  color: #428bca;
+  &:hover,
+  &:focus,
+  &:visited {
+    color: #428bca;
+    background: rgba(255,255,255,0);
+  }
+}
+
+a:visited,
+.btn-link:visited {
+  color: #428bca;
+}

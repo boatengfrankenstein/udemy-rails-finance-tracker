@@ -1,3 +1,26 @@
-<h1>Welcome to the finance tracker app</h1>
-
-<%= link_to "logout", destroy_user_session_path, method: :delete %>
+<div class="row">
+  <div class="col-md-8">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>Welcome to the Finance Tracker app</h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          This is an exercise from
+          <a class="link" href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course/" target="_blank">The Complete Ruby on Rails Developer Course</a>
+          on
+          <a class="link" href="https://www.udemy.com/" target="_blank">Udemy.</a>
+        </p>
+        <p>
+          The goal was to create an application where you can track stocks and add up to 10 stocks into your portfolio.
+        </p>
+        <p>
+          You can view the
+          <a class="link" href="https://github.com/renandf/udemy-rails-finance-tracker" target="_blank">Project on Github</a>
+          to see details on how it was coded.
+        </p>
+        <%= link_to "Track Stocks", my_portfolio_path, class: "btn btn-primary btn-lg margin-t30" %>
+      </div>
+    </div>
+  </div>
+</div>
